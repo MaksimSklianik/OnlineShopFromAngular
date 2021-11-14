@@ -17,7 +17,9 @@ const routes: Routes = [
         {path: 'cart', component: CartPageComponent}
       ]
   },
-
+  {
+    path: 'admin', loadChildren: () => import('./admin/admin.module').then(m => m.AdminModule)
+  }
 
 ];
 
