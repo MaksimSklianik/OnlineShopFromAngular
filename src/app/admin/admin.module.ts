@@ -8,12 +8,15 @@ import {AddPageComponent} from './add-page/add-page.component';
 import {DashbordComponent} from './dashbord/dashbord.component';
 import {EditPageComponent} from './edit-page/edit-page.component';
 import {OrdersPageComponent} from './orders-page/orders-page.component';
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 
 
 @NgModule({
   imports: [
 
     CommonModule,
+    FormsModule,
+    ReactiveFormsModule,
     RouterModule.forChild([
       {
         path: '', component: AdminLayoutComponent, children: [
@@ -26,7 +29,7 @@ import {OrdersPageComponent} from './orders-page/orders-page.component';
 
 
         ]
-      }, ])
+      },])
   ],
   exports: [RouterModule],
 
