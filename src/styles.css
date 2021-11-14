@@ -1,4 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 :root {
@@ -29,8 +30,8 @@ a {
   text-decoration: none;}
 
 :hover {
-   color: #666;
- }
+  color: #666;
+}
 
 
 
@@ -96,10 +97,10 @@ li {
   border-radius: .5rem;}
 
 :disabled {
-   cursor: not-allowed;
-   background: var(--light-color);
-   color: #111;
- }
+  cursor: not-allowed;
+  background: var(--light-color);
+  color: #111;
+}
 
 
 .btn-link {
@@ -255,9 +256,9 @@ table th {
   height: 3rem;}
 
 .main {
-   justify-content: center;
-   border-bottom: 1px solid var(--dark-color);
- }
+  justify-content: center;
+  border-bottom: 1px solid var(--dark-color);
+}
 
 ul {
   display: flex;
@@ -277,8 +278,8 @@ a {
   opacity: .7;}
 
 :hover {
-   color: var(--light-color);
-   opacity: 1;
- }
+  color: var(--light-color);
+  opacity: 1;
+}
 
 

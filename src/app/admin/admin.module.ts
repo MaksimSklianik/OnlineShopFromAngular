@@ -38,7 +38,8 @@ import {FormsModule, ReactiveFormsModule} from "@angular/forms";
     DashbordComponent,
     EditPageComponent,
     OrdersPageComponent,
-    AdminLayoutComponent
+    AdminLayoutComponent,
+    LoginComponent
   ]
 })
 
